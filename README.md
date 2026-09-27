@@ -1,12 +1,129 @@
-# Hi, I'm Rajashekar Akula
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Rajashekar Akula — Software Engineering, Applied AI and Machine Learning" />
+</p>
 
-**Software Engineering · Applied AI · Machine Learning**
+<p align="center">
+  <a href="#-featured-projects">Explore projects</a> ·
+  <a href="#-tools-i-build-with">My toolkit</a> ·
+  <a href="#-the-story-behind-the-code">My story</a>
+</p>
 
-I build applications that turn data into useful decisions—combining machine learning, AI assistants, backend APIs, and interactive web interfaces.
+<p align="center">
+  <img src="https://img.shields.io/badge/Applied_AI-7C3AED?style=for-the-badge" alt="Applied AI" />
+  <img src="https://img.shields.io/badge/Machine_Learning-0284C7?style=for-the-badge" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Full_Stack_Development-0D9488?style=for-the-badge" alt="Full Stack Development" />
+  <img src="https://img.shields.io/badge/Data_Analytics-EA580C?style=for-the-badge" alt="Data Analytics" />
+</p>
 
-My current projects span retail inventory, energy demand, hospital operations, and personalized restaurant discovery. Across these domains, I focus on connecting a model's output to a clear, usable product experience.
+I build applications that turn data into useful decisions—combining **machine learning, grounded AI assistants, backend APIs, and interactive web experiences**.
 
-## My story
+My current projects explore retail inventory, energy demand, hospital operations, and personalized restaurant discovery. I enjoy connecting the full journey: **a practical question → reliable data → an evaluated model → a useful application**.
+
+## 🚀 Featured projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📦 ShelfSignal
+
+**Retail intelligence + grounded AI**
+
+Seven-day stockout risk, evaluated alerts, and a local RAG assistant with evidence citations.
+
+<sub>XGBoost · FastAPI · React · Ollama</sub>
+
+[Explore code ↗](https://github.com/rajashekarakula19-spec/retail-stockout-early-warning) · [Open dashboard ↗](https://rajashekarakula19-spec.github.io/retail-stockout-early-warning/)
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Voltart
+
+**Energy analytics + forecasting**
+
+Industrial cost analysis and 14-day demand forecasts with actual-versus-predicted backtests.
+
+<sub>scikit-learn · Python · Next.js</sub>
+
+[Explore code ↗](https://github.com/rajashekarakula19-spec/industrial-energy-analytics-and-electricity-demand-forecasting)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏥 Finger Lakes
+
+**Healthcare operations research**
+
+Case-mix-adjusted length-of-stay and cost benchmarking with uncertainty and statistical controls.
+
+<sub>Python · scikit-learn · FastAPI</sub>
+
+[Explore code ↗](https://github.com/rajashekarakula19-spec/los-pjt) · [Open dashboard ↗](https://rajashekarakula19-spec.github.io/los-pjt/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🍜 FooLover
+
+**Personalized discovery + local AI**
+
+Restaurant search, meal planning, map exploration, and optional local LLM interpretation.
+
+<sub>React · TypeScript · Ollama · PostGIS</sub>
+
+[Explore code ↗](https://github.com/rajashekarakula19-spec/Foolover)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🔎 Explore the methods and demo details</b></summary>
+
+- **ShelfSignal:** Chronological validation, frozen alert thresholds, baseline comparisons, and lead-time-aware evaluation. Full RAG requires the backend and Ollama; the public dashboard uses static demonstrations. Historical loss estimates are not demonstrated savings.
+- **Voltart:** Gradient-boosting demand forecasts and cost analytics using synthetic industrial data.
+- **Finger Lakes:** A retrospective research prototype using 2024 NY SPARCS data, out-of-fold modeling, uncertainty intervals, and false-discovery-rate controls. Results prioritize human investigation.
+- **FooLover:** Local language-model interpretation and recommendation ranking with heuristic fallbacks. Menus, prices, and wait estimates include demo data.
+
+</details>
+
+## 🧰 Tools I build with
+
+<p align="center">
+  <img src="assets/toolkit.svg" width="620" alt="Python, TypeScript, JavaScript, React, Next.js, FastAPI, PostgreSQL, Docker, Git, and GitHub" />
+</p>
+
+<p align="center"><sub>Python · TypeScript · JavaScript · React · Next.js · FastAPI · PostgreSQL · Docker · Git · GitHub</sub></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/XGBoost-2563EB?style=flat-square" alt="XGBoost" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="pandas" />
+  <img src="https://img.shields.io/badge/NumPy-4DABCF?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Ollama-18181B?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/RAG-A855F7?style=flat-square" alt="Retrieval-augmented generation" />
+</p>
+
+<details>
+<summary><b>🛠️ How I use this toolkit</b></summary>
+
+| Area | My project work |
+| --- | --- |
+| Software engineering | APIs, application interfaces, React dashboards, and data integration |
+| Applied machine learning | Feature engineering, gradient boosting, recommendation ranking, and time-series forecasting |
+| Generative AI | Local LLM integration, evidence retrieval, grounded answers, and citation validation |
+| Evaluation | Temporal validation, backtesting, retrieval evaluation, and statistical benchmarking |
+| Delivery | Docker, automated tests, and GitHub Pages portfolio dashboards |
+
+</details>
+
+## 💡 The story behind the code
+
+<details>
+<summary><b>Read my engineering story</b></summary>
 
 I approach software through practical questions. Can a retailer spot stockout risk early enough to investigate? Can an energy dashboard explain yesterday's costs and forecast tomorrow's demand? Can hospital comparisons account for differences in the patients they serve?
 
@@ -16,52 +133,20 @@ I'm also bringing generative AI into these workflows. In ShelfSignal, a retrieva
 
 My engineering priorities are clear evaluation, traceable answers, and honest communication of what a system can support. I want someone exploring my work to understand both how it was built and why its results matter.
 
-## Featured projects
+</details>
 
-### [ShelfSignal — Retail Stockout Early Warning](https://github.com/rajashekarakula19-spec/retail-stockout-early-warning)
+## 🌱 Where I'm heading
 
-A retail analytics application that predicts seven-day stockout risk and presents alerts, likely risk drivers, and suggested inventory actions. Its evaluation uses chronological splits, a frozen alert threshold, baseline comparisons, and measures of false-alert workload and useful warning time.
+**Building on now:** grounded AI assistants, local model integration, and evaluation-driven ML applications.
 
-Its local RAG assistant retrieves versioned project evidence, validates citations, and abstains when evidence is insufficient. The public dashboard provides a static demonstration; full RAG generation requires the backend and Ollama. Reported historical losses are retrospective estimates, not demonstrated savings.
+**Exploring next:** tool-using AI workflows and stronger MLOps practices for reproducibility, monitoring, and deployment.
 
-**Focus:** Predictive ML · Retrieval-augmented generation · Grounded explanations · Evaluation  
-**Stack:** Python, XGBoost, PostgreSQL, FastAPI, React, Ollama
+I'm interested in **software, AI, and ML opportunities** where I can connect thoughtful modeling with practical application development.
 
-### [Voltart — Industrial Energy Analytics & Demand Forecasting](https://github.com/rajashekarakula19-spec/industrial-energy-analytics-and-electricity-demand-forecasting)
+---
 
-An energy analytics portfolio application connecting cost analysis with a 14-day electricity demand forecast. It combines budget-versus-actual views, cost breakdowns, gradient-boosting forecasts, and actual-versus-predicted backtests using synthetic industrial data.
+<p align="center"><b>Explore the code. Open a dashboard. Follow the ideas.</b><br/><br/>
+<a href="https://github.com/rajashekarakula19-spec?tab=repositories">Browse all repositories ↗</a>
+</p>
 
-**Focus:** Time-series forecasting · Data pipelines · Model backtesting · Interactive analytics  
-**Stack:** Python, scikit-learn, pandas, FastAPI, Next.js, TypeScript
-
-### [Finger Lakes — Inpatient Planning & Opportunity Dashboard](https://github.com/rajashekarakula19-spec/los-pjt)
-
-A hospital operations research prototype using 2024 New York SPARCS data to compare length of stay and cost against case-mix-adjusted expectations. Out-of-fold modeling, uncertainty intervals, and false-discovery-rate controls help prioritize patterns for human investigation.
-
-**Focus:** Applied ML · Statistical evaluation · Interpretable analytics · Healthcare operations research  
-**Stack:** Python, scikit-learn, FastAPI, HTML, CSS, JavaScript
-
-### [FooLover — AI-Assisted Restaurant Discovery & Meal Planning](https://github.com/rajashekarakula19-spec/Foolover)
-
-A Buffalo-focused product demo connecting restaurant discovery, meal selection, cost estimates, and an itinerary. It combines optional local LLM interpretation with recommendation ranking, map-based search, and heuristic fallbacks. Menus, prices, and wait estimates include demo data.
-
-**Focus:** Local LLM integration · Personalized recommendations · Full-stack product development  
-**Stack:** React, TypeScript, FastAPI, Ollama, MapLibre, PostgreSQL/PostGIS
-
-## Technical toolkit
-
-| Area | Technologies and methods used across my projects |
-| --- | --- |
-| Application development | Python, TypeScript, JavaScript, React, Next.js, FastAPI, REST APIs |
-| Machine learning | XGBoost, scikit-learn, gradient boosting, recommendation ranking, feature engineering |
-| Generative AI | RAG, Ollama, local language models, evidence retrieval, citation validation |
-| Data and analytics | SQL, PostgreSQL, pandas, NumPy, time-series analysis, statistical benchmarking |
-| Quality and delivery | pytest, Docker, GitHub Pages, temporal validation, backtesting, retrieval evaluation |
-
-## Current direction
-
-I'm developing my work around grounded AI assistants, local model integration, and evaluation-driven ML applications. My next areas of exploration are tool-using AI workflows and stronger MLOps practices for reproducibility, monitoring, and deployment.
-
-I'm interested in software, AI, and ML opportunities where I can connect thoughtful modeling with practical application development.
-
-[Explore my repositories](https://github.com/rajashekarakula19-spec?tab=repositories)
+<!-- Technology icons: https://skillicons.dev | Badges: https://shields.io -->
