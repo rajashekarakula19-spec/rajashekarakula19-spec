@@ -190,12 +190,20 @@ End-to-end industrial electricity demand forecasting system providing 14-day rol
 
 ---
 
-## 📊 GitHub Insights
+## 📅 GitHub Contribution Heatmap
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/701a3d/rajashekarakula19-spec" width="100%" alt="Rajashekar's GitHub Contribution Heatmap" />
+</p>
+
+---
+
+## 📊 GitHub Insights &amp; Statistics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rajashekarakula19-spec&show_icons=true&theme=transparent&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B&border_color=451126&bg_color=10070C" alt="Rajashekar's GitHub Stats" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajashekarakula19-spec&layout=compact&theme=transparent&title_color=E5B5C7&text_color=F8F0F3&border_color=451126&bg_color=10070C" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajashekarakula19-spec&theme=dark&background=10070C&border=451126&stroke=C77B9B&ring=701A3D&fire=E5B5C7&currStreakLabel=C77B9B&sideNums=E5B5C7&sideLabels=C77B9B&dates=B89BA8" alt="GitHub Streak Stats" />
 </p>
 
 ---
