@@ -1,0 +1,1 @@
+Technology logos come from [Devicon](https://github.com/devicons/devicon), distributed under the MIT license (see DEVICON-LICENSE). Brand names and logos belong to their respective owners. Panels are composed locally by scripts/build_profile_art.py.
